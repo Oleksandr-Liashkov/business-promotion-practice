@@ -79,6 +79,10 @@ body {
 .page-header {
   background-color: #fff;
   margin-bottom: 25px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .header-container {
