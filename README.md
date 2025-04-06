@@ -6,4 +6,6 @@ Version history:
 
 - v 0.0.1.1 - Header position value added.
 
-- v 0.1.0.0 - Add initial pages with header.
+- v 0.1.0.0 - Initial pages with header added.
+
+- v 0.1.1.0 - Intro Section added.
