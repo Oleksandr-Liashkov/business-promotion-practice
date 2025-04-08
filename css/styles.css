@@ -91,7 +91,7 @@ body {
   align-items: center;
 }
 
-.header-logo {
+.logo {
   font-weight: 700;
   font-size: 30px;
   line-height: 0.93333;
@@ -1017,4 +1017,44 @@ body {
   background-color: #02897a;
   color: #fff;
   border: 1px solid #bcd0e5;
+}
+
+.footer-logo {
+  margin-bottom: 18px;
+  margin-right: auto;
+}
+
+.footer-soc-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-soc-icon {
+  fill: #02897a;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+
+.footer-soc-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: #edfffc;
+  width: 40px;
+  height: 40px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+
+.footer-soc-list-link:hover,
+.footer-soc-list-link:focus {
+  background-color: #02897a;
+}
+
+.footer-soc-list-link:hover .footer-soc-icon,
+.footer-soc-list-link:focus .footer-soc-icon {
+  fill: #fff;
 }

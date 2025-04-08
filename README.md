@@ -27,3 +27,5 @@ v(version) 0(web-site).0(page).0(section).0(update)
 - v 0.1.6.0 - "Comments" Section completed.
 
 - v 0.1.7.0 - Footer added.
+
+- v 0.1.7.1 - Footer content added (part one).
