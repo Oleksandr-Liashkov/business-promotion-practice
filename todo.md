@@ -1,1 +1,1 @@
-- Remake <img> in "Strategies" section.
+

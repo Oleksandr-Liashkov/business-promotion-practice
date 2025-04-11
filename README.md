@@ -36,4 +36,6 @@ v(version) 0(web-site).0(page).0(section).0(update)
 
 - v 0.1.7.4 - Small edits.
 
-- v 0.1.7.5 - "Clients" Section completed.
+- v 0.1.8.0 - "Clients" Section completed.
+
+- v 0.1.8.1 - "Choose" Section completed.
