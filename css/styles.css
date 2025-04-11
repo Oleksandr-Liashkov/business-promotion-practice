@@ -1332,6 +1332,114 @@ body {
 
 /* EXPLANATION SECTION */
 
+.explanation-section {
+  padding-top: 101px;
+  padding-bottom: 115px;
+  background-color: #fff;
+}
+
+.explanation-header {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #22343d;
+  display: block;
+  text-align: center;
+  margin-bottom: 73px;
+}
+
+.explanation-list {
+  margin-bottom: 78px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.explanation-list-item {
+  display: flex;
+  justify-content: center;
+}
+
+.explanation-list-item:nth-child(1) {
+  gap: 132px;
+}
+
+.explanation-list-item:nth-child(1) .explanation-list-text {
+  width: 395px;
+}
+
+.explanation-list-item:nth-child(2) {
+  gap: 76px;
+}
+
+.explanation-list-item:nth-child(2) .explanation-list-text {
+  width: 445px;
+}
+
+.explanation-list-item:nth-child(3) {
+  gap: 141px;
+}
+
+.explanation-list-item:nth-child(3) .explanation-list-text {
+  width: 385px;
+}
+
+.explanation-list-item-wrap {
+  margin-left: auto;
+}
+
+.explanation-list-upper-text {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+  color: #22343d;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.explanation-list-header {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: left;
+  color: #22343d;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.explanation-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+  display: block;
+}
+
+.explanation-btn {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  width: 224px;
+  height: 44px;
+  background-color: #02897a;
+  transition-property: color, background-color, border;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+
+.explanation-btn:hover,
+.explanation-btn:focus {
+  color: #02897a;
+  background-color: transparent;
+  border: 1px solid #bcd0e5;
+}
+
 /* -------------------------------------------------------- */
 
 /* INVITATION SECTION */
@@ -1418,4 +1526,76 @@ body {
 
 .customer-footer {
   background-color: rgba(245, 245, 245, 0);
+}
+
+/* -------------------------------------------------------- */
+
+/* PRICING PAGE */
+
+/* -------------------------------------------------------- */
+
+/* PRICING SECTION */
+
+/* ENTERPRICE SECTION */
+
+.enterprice-section {
+  padding-top: 53px;
+  padding-bottom: 51px;
+}
+
+.enterprice-container {
+  padding-right: 174px;
+  padding-left: 174px;
+}
+
+.enterprice-header {
+  font-weight: 600;
+  font-size: 24px;
+  color: #22343d;
+  display: block;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.enterprice-sub-header {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  display: block;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.enterprice-text {
+  font-weight: 400;
+  font-size: 18px;
+  color: #22343d;
+  display: block;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.enterprice-btn {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  width: 224px;
+  height: 44px;
+  background-color: #02897a;
+  transition-property: color, background-color, border;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+
+.enterprice-btn:hover,
+.enterprice-btn:focus {
+  color: #02897a;
+  background-color: transparent;
+  border: 1px solid #bcd0e5;
 }
