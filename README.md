@@ -38,4 +38,6 @@ v(version) 0(web-site).0(page).0(section).0(update)
 
 - v 0.1.8.0 - "Clients" Section completed.
 
-- v 0.1.8.1 - "Choose" Section completed.
+- v 0.1.9.0 - "Choose" Section completed.
+
+- v 0.1.10.0 - "Invitation" Section completed. Customer Page Footer updated.
