@@ -76,6 +76,10 @@ body {
 
 /* -------------------------------------------------------- */
 
+/* MAIN PAGE */
+
+/* -------------------------------------------------------- */
+
 /* HEADER */
 
 .page-header {
@@ -1197,4 +1201,39 @@ body {
 
 .page-footer {
   margin-bottom: 40px;
+}
+
+/* -------------------------------------------------------- */
+
+/* CUSTOMERS PAGE */
+
+/* -------------------------------------------------------- */
+
+/* CLIENTS SECTION */
+
+.clients-section {
+  background-color: #fff;
+  padding-top: 100px;
+  padding-bottom: 117px;
+}
+
+.clients-container {
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.clients-header {
+  font-weight: 700;
+  font-size: 40px;
+  color: #22343d;
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  gap: 64px;
+  justify-content: center;
+  align-items: center;
 }
