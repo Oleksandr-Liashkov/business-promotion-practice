@@ -85,10 +85,6 @@ body {
 .page-header {
   background-color: #fff;
   margin-bottom: 25px;
-  /* position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%); */
 }
 
 .header-container {
@@ -116,9 +112,6 @@ body {
   gap: 30px;
 }
 
-/* .header-nav-list-item {
-} */
-
 .header-nav-list-link {
   font-weight: 400;
   font-size: 16px;
@@ -138,9 +131,6 @@ body {
   gap: 21px;
   margin-left: auto;
 }
-
-/* .header-btn-list-item {
-} */
 
 .header-signin-btn {
   font-weight: 600;
@@ -701,7 +691,7 @@ body {
 
 /* -------------------------------------------------------- */
 
-/* PRICE SECTION */
+/* PRICING SECTION */
 
 .price-section {
   background-color: #fff;
@@ -1536,6 +1526,8 @@ body {
 
 /* PRICING SECTION */
 
+/* -------------------------------------------------------- */
+
 /* ENTERPRICE SECTION */
 
 .enterprice-section {
@@ -1598,4 +1590,122 @@ body {
   color: #02897a;
   background-color: transparent;
   border: 1px solid #bcd0e5;
+}
+
+/* -------------------------------------------------------- */
+
+/* PRICING SECTION */
+
+.pricing-section {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.pricing-main-header {
+  font-weight: 600;
+  font-size: 24px;
+  color: #22343d;
+  text-align: center;
+  display: block;
+  margin-bottom: 32px;
+}
+
+.pricing-header {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #22343d;
+  display: block;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.pricing-text {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #22343d;
+  display: block;
+  text-align: center;
+  margin-bottom: 49px;
+}
+
+/* -------------------------------------------------------- */
+
+/* PRODUCT SECTION */
+
+.product-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.product-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.product-header {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  display: block;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.content-wrap {
+  width: 543px;
+  display: block;
+}
+
+.icon-header-wrap {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.product-list-icon-wrap {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #f4f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-list-header {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #22343d;
+  display: block;
+}
+
+.product-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+  display: block;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.product-list-item:nth-child(1) .product-list-text {
+  width: 485px;
+}
+
+.product-list-item:nth-child(2) .product-list-text {
+  width: 540px;
+}
+
+.product-list-item:nth-child(3) .product-list-text {
+  width: 450px;
 }
